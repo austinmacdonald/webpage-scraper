@@ -49,7 +49,7 @@
         }, 
         "cash_advances": {
           "dollar_amount": 10, 
-          "text": "Either $10 or 5% of the amount of each transaction, whichever is greater. ", 
+          "text": "Either $10 or 5% of the amount of each transaction, whichever is greater.", 
           "percentage": 5
         }, 
         "foreign": {

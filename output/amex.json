@@ -2,12 +2,10 @@
   {
     "interest_rates_and_interest_charges": {
       "balance_transfer_apr": {
-        "amounts": [
-          15.99, 
-          18.99, 
-          20.99
-        ], 
         "text": "15.99, 18.99 or  20.99% APR on balance transfers requested within 60 days of account opening based on your creditworthiness and other factors.This APR will vary with the market based on the Prime Rate.", 
+        "middle_amount": 18.99, 
+        "low_amount": 15.99, 
+        "high_amount": 20.99, 
         "period": {
           "amount": 60, 
           "unit": "days"
@@ -29,9 +27,9 @@
           "amount": 6, 
           "unit": "months"
         }, 
-        "amount": 25.99, 
+        "text": "29.99% This APR will vary with the market based on the Prime Rate. This APR may be applied to new transactions on your account if: 1) you make one or more late payments; or2) your payment is returned by your bank How Long Will the Penalty APR Apply? If the Penalty APR is applied, it will apply for at least 6 months. We review your Account every 6 months after the Penalty APR is applied. The Penalty APR will continue to apply until after you have made timely payments, with no returned payments during the 6 months being reviewed.", 
+        "amount": 29.99, 
         "review_period": {
-          "text": "29.99% This APR will vary with the market based on the Prime Rate. This APR may be applied to new transactions on your account if: 1) you make one or more late payments; or2) your payment is returned by your bank How Long Will the Penalty APR Apply? If the Penalty APR is applied, it will apply for at least 6 months. We review your Account every 6 months after the Penalty APR is applied. The Penalty APR will continue to apply until after you have made timely payments, with no returned payments during the 6 months being reviewed.", 
           "amount": 6, 
           "unit": "months"
         }
@@ -40,12 +38,10 @@
         "text": "To learn more about factors to consider when applying for or using a credit card, visit the website of the Consumer Financial Protection Bureau at http://www.consumerfinance.gov/learnmore"
       }, 
       "purchase_apr": {
-        "amounts": [
-          15.99, 
-          18.99, 
-          20.99
-        ], 
-        "text": "15.99, 18.99 or 20.99%, based on your creditworthiness and other factors as determined at the time of account opening. This APR will vary with the market based on the Prime Rate."
+        "text": "15.99, 18.99 or 20.99%, based on your creditworthiness and other factors as determined at the time of account opening. This APR will vary with the market based on the Prime Rate.", 
+        "middle_amount": 18.99, 
+        "low_amount": 15.99, 
+        "high_amount": 20.99
       }
     }
   }, 
@@ -76,9 +72,7 @@
           "maximum_amount": 38
         }, 
         "return_payment": {
-          "text": [
-            38
-          ], 
+          "text": "Up to $38", 
           "maximum_amount": 38
         }
       }, 

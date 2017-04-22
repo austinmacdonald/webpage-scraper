@@ -2,6 +2,7 @@
   {
     "interest_rates_and_interest_charges": {
       "balance_transfer_apr": {
+        "text": "0.00% introductory APR for 6\u00a0months.After that, your APR will be 11.90% to 21.90%, based on your creditworthiness. This APR will vary with the market based on the U.S. Prime Rate.", 
         "introductory_apr": {
           "term": {
             "units": "months", 
@@ -11,7 +12,6 @@
           "high_amount": 0.0
         }, 
         "normal_apr": {
-          "text": "0.00% introductory APR for 6\u00a0months.After that, your APR will be 11.90% to 21.90%, based on your creditworthiness. This APR will vary with the market based on the U.S. Prime Rate.", 
           "low_amount": 11.9, 
           "high_amount": 21.9
         }
@@ -24,7 +24,8 @@
         }
       }, 
       "minimum_interest_charge": {
-        "text": "If you are charged interest, the charge will be no less than $1.00."
+        "text": "If you are charged interest, the charge will be no less than $1.00.", 
+        "amount": 1.0
       }, 
       "cash_advance_apr": {
         "text": "24.74%This APR will vary with the market based on the U.S. Prime Rate.", 
@@ -34,6 +35,7 @@
         "text": "To learn more about factors to consider when applying for or using a credit card, visit the website of the Consumer Financial Protection Bureau at http://\u200bwww\u200b.consumerfinance\u200b.gov\u200b/learnmore."
       }, 
       "purchase_apr": {
+        "text": "0.00% introductory APR for 6\u00a0months.After that your APR will be 11.90% to 21.90%, based on your creditworthiness. This APR will vary with the market based on the U.S. Prime Rate.", 
         "introductory_apr": {
           "term": {
             "units": "months", 
@@ -43,7 +45,6 @@
           "high_amount": 0.0
         }, 
         "normal_apr": {
-          "text": "0.00% introductory APR for 6\u00a0months.After that your APR will be 11.90% to 21.90%, based on your creditworthiness. This APR will vary with the market based on the U.S. Prime Rate.\u00a0\u00a0\u00a0", 
           "low_amount": 11.9, 
           "high_amount": 21.9
         }
@@ -57,23 +58,21 @@
           "text": "Introductory fee of either $5 or 3% of the amount of each balance transfer, whichever is greater, for 6 months. After that, up to 5% for each balance transfer, with a minimum of $5.", 
           "normal_fee": {
             "dollar_amount": 5, 
-            "percentage": 6
+            "percentage": 5
           }, 
           "introductory_fee": {
             "dollar_amount": 5, 
             "percentage": 3, 
-            "term": [
-              [
-                "months", 
-                6
-              ]
-            ]
+            "term": {
+              "amount": 6, 
+              "unit": "months"
+            }
           }
         }, 
         "cash_advances": {
-          "dollar_amount": 5, 
+          "dollar_amount": 10, 
           "text": "Either $10 or 5% of the amount of each advance, whichever is greater.", 
-          "percentage": 3
+          "percentage": 5
         }, 
         "overdraft": {
           "upper_range": {
@@ -102,7 +101,7 @@
         }
       }, 
       "annual_membership_fee": {
-        "text": "None\u00a0"
+        "text": "None"
       }
     }
   }
