@@ -1,0 +1,91 @@
+[
+  {
+    "interest_rates_and_interest_charges": {
+      "balance_transfer_apr": {
+        "text": "16.74% to 23.74%, based on your creditworthiness. These APRs will vary with the market based on the Prime Rate.a", 
+        "low_amount": 16.74, 
+        "high_amount": 23.74
+      }, 
+      "due_date": {
+        "text": "Your due date will be a minimum of 21 days after the close of each billing cycle. We will not charge you interest on purchases if you pay your entire balance by the due date each month. We will begin charging interest on balance transfers and cash advances on the transaction date.", 
+        "earliest": {
+          "amount": 21, 
+          "unit": "days"
+        }
+      }, 
+      "minimum_interest_charge": {
+        "text": "None"
+      }, 
+      "cash_advance_apr": {
+        "text": "25.74%. This APR will vary with the market based on the Prime Rate.b", 
+        "amount": 25.74
+      }, 
+      "prime_rate": {
+        "date_updated": {
+          "year": 2017, 
+          "day": 21, 
+          "month": 3
+        }, 
+        "text": "Prime Rate: Variable APRs are based on the 4.00% Prime Rate as of 3/21/2017.", 
+        "amount": 4.0
+      }, 
+      "tips": {
+        "text": "To learn more about factors to consider when applying for or using a credit card, visit the website of the Consumer Financial Protection Bureau at http://www.consumerfinance.gov/learnmore."
+      }, 
+      "purchase_apr": {
+        "text": "16.74% to 23.74%, based on your creditworthiness. These APRs will vary with the market based on the Prime Rate.a", 
+        "low_amount": 16.74, 
+        "high_amount": 23.74
+      }
+    }
+  }, 
+  {
+    "fees": {
+      "transaction_fees": {
+        "balance_transfers": {
+          "dollar_amount": 5, 
+          "text": "Either $5 or 5% of the amount of each transfer, whichever is greater.", 
+          "percentage": 5
+        }, 
+        "cash_advances": {
+          "dollar_amount": 10, 
+          "text": "Either $10 or 5% of the amount of each transaction, whichever is greater. ", 
+          "percentage": 5
+        }, 
+        "foreign": {
+          "text": "None"
+        }
+      }, 
+      "penalty_fees": {
+        "return_check": {
+          "text": "None"
+        }, 
+        "late_payment": {
+          "high_range": {
+            "maximum_fee": 37, 
+            "lower_balance": 250
+          }, 
+          "text": "Up to $15 if the balance is less than $100; up to $27 if the balance is $100 to less than $250; up to $37 if the balance is $250 or more.", 
+          "low_range": {
+            "upper_balance": 100, 
+            "maximum_fee": 15
+          }, 
+          "middle_range": {
+            "upper_balance": 250, 
+            "maximum_fee": 27, 
+            "lower_balance": 100
+          }
+        }, 
+        "return_payment": {
+          "maximum_fee": 37, 
+          "text": "Up to $37."
+        }
+      }, 
+      "annual_membership_fee": {
+        "text": "$0 Intro fee for the first year. After that, $95", 
+        "intro_amount": 0, 
+        "normal_amount": 95
+      }
+    }
+  }
+]
