@@ -1,286 +1,277 @@
-{
-  "chase_freedom": [
-    {
-      "interest_rates_and_interest_charges": {
-        "balance_transfer_apr": {
-          "text": "16.74% to 23.74%, based on your creditworthiness. These APRs will vary with the market based on the Prime Rate.a", 
-          "low_amount": 16.74, 
-          "high_amount": 23.74
+[
+  {
+    "interest_rates_and_interest_charges": {
+      "balance_transfer_apr": {
+        "text": "15.99, 18.99 or  20.99% APR on balance transfers requested within 60 days of account opening based on your creditworthiness and other factors.This APR will vary with the market based on the Prime Rate.", 
+        "middle_amount": 18.99, 
+        "low_amount": 15.99, 
+        "high_amount": 20.99, 
+        "period": {
+          "amount": 60, 
+          "unit": "days"
+        }
+      }, 
+      "due_date": {
+        "text": "Your due date is at least 25 days after the close of each billing period. We will not charge you interest on purchases if you pay your entire balance by the due date each month. We will begin charging interest on cash advances and balance transfers on the transaction date.", 
+        "earliest": {
+          "amount": 25, 
+          "unit": "days"
+        }
+      }, 
+      "cash_advance_apr": {
+        "text": "25.99%This APR will vary with the market based on the Prime Rate.", 
+        "amount": 25.99
+      }, 
+      "penalty_apr": {
+        "text": "29.99% This APR will vary with the market based on the Prime Rate. This APR may be applied to new transactions on your account if: 1) you make one or more late payments; or2) your payment is returned by your bank How Long Will the Penalty APR Apply? If the Penalty APR is applied, it will apply for at least 6 months. We review your Account every 6 months after the Penalty APR is applied. The Penalty APR will continue to apply until after you have made timely payments, with no returned payments during the 6 months being reviewed.", 
+        "amount": 29.99, 
+        "minimum_term": {
+          "amount": 6, 
+          "unit": "months"
         }, 
-        "due_date": {
-          "text": "Your due date will be a minimum of 21 days after the close of each billing cycle. We will not charge you interest on purchases if you pay your entire balance by the due date each month. We will begin charging interest on balance transfers and cash advances on the transaction date.", 
-          "earliest": {
-            "amount": 21, 
-            "unit": "days"
-          }
+        "review_period": {
+          "amount": 6, 
+          "unit": "months"
+        }
+      }, 
+      "tips": {
+        "text": "To learn more about factors to consider when applying for or using a credit card, visit the website of the Consumer Financial Protection Bureau at http://www.consumerfinance.gov/learnmore"
+      }, 
+      "purchase_apr": {
+        "text": "15.99, 18.99 or 20.99%, based on your creditworthiness and other factors as determined at the time of account opening. This APR will vary with the market based on the Prime Rate.", 
+        "middle_amount": 18.99, 
+        "low_amount": 15.99, 
+        "high_amount": 20.99
+      }
+    }, 
+    "name": "Amex Blue", 
+    "fees": {
+      "transaction_fees": {
+        "foreign_transaction": {
+          "text": "2.7% of each transaction after conversion to US dollars.", 
+          "percentage": 2.7
         }, 
-        "minimum_interest_charge": {
+        "cash_advance": {
+          "dollar_amount": 5, 
+          "text": "Either $5 or 3% of the amount of each cash advance, whichever is greater.", 
+          "percentage": 3
+        }, 
+        "balance_transfer": {
+          "dollar_amount": 5, 
+          "text": "Either $5 or 3% of the amount of each transfer, whichever is greater.", 
+          "percentage": 3
+        }
+      }, 
+      "penalty_fees": {
+        "overlimit": {
           "text": "None"
         }, 
-        "cash_advance_apr": {
-          "text": "25.74%. This APR will vary with the market based on the Prime Rate.b", 
-          "amount": 25.74
+        "late_payment": {
+          "text": "Up to $38", 
+          "maximum_amount": 38
         }, 
-        "prime_rate": {
-          "date_updated": {
-            "year": 2017, 
-            "day": 21, 
-            "month": 3
-          }, 
-          "text": "Prime Rate: Variable APRs are based on the 4.00% Prime Rate as of 3/21/2017.", 
-          "amount": 4.0
-        }, 
-        "tips": {
-          "text": "To learn more about factors to consider when applying for or using a credit card, visit the website of the Consumer Financial Protection Bureau at http://www.consumerfinance.gov/learnmore."
-        }, 
-        "purchase_apr": {
-          "text": "16.74% to 23.74%, based on your creditworthiness. These APRs will vary with the market based on the Prime Rate.a", 
-          "low_amount": 16.74, 
-          "high_amount": 23.74
+        "return_payment": {
+          "text": "Up to $38", 
+          "maximum_amount": 38
         }
-      }
-    }, 
-    {
-      "fees": {
-        "transaction_fees": {
-          "balance_transfers": {
-            "dollar_amount": 5, 
-            "text": "Either $5 or 5% of the amount of each transfer, whichever is greater.", 
-            "percentage": 5
-          }, 
-          "cash_advances": {
-            "dollar_amount": 10, 
-            "text": "Either $10 or 5% of the amount of each transaction, whichever is greater.", 
-            "percentage": 5
-          }, 
-          "foreign": {
-            "text": "None"
-          }
-        }, 
-        "penalty_fees": {
-          "return_check": {
-            "text": "None"
-          }, 
-          "late_payment": {
-            "high_range": {
-              "maximum_fee": 37, 
-              "lower_balance": 250
-            }, 
-            "text": "Up to $15 if the balance is less than $100; up to $27 if the balance is $100 to less than $250; up to $37 if the balance is $250 or more.", 
-            "low_range": {
-              "upper_balance": 100, 
-              "maximum_fee": 15
-            }, 
-            "middle_range": {
-              "upper_balance": 250, 
-              "maximum_fee": 27, 
-              "lower_balance": 100
-            }
-          }, 
-          "return_payment": {
-            "maximum_fee": 37, 
-            "text": "Up to $37."
-          }
-        }, 
-        "annual_membership_fee": {
-          "text": "$0 Intro fee for the first year. After that, $95", 
-          "intro_amount": 0, 
-          "normal_amount": 95
-        }
+      }, 
+      "annual_membership_fee": {
+        "text": "$0", 
+        "amount": 0
       }
     }
-  ], 
-  "wf_college_card": [
-    {
-      "interest_rates_and_interest_charges": {
-        "balance_transfer_apr": {
-          "text": "0.00% introductory APR for 6\u00a0months.After that, your APR will be 11.90% to 21.90%, based on your creditworthiness. This APR will vary with the market based on the U.S. Prime Rate.", 
-          "introductory_apr": {
-            "term": {
-              "units": "months", 
-              "amount": 6
-            }, 
-            "low_amount": 0.0, 
-            "high_amount": 0.0
-          }, 
-          "normal_apr": {
-            "low_amount": 11.9, 
-            "high_amount": 21.9
-          }
-        }, 
-        "due_date": {
-          "text": "Your due date is at least 25 days after the close of each billing period. We will not charge you interest on purchases if you pay your entire balance by the due date each month.", 
-          "earliest": {
-            "amount": 25, 
-            "unit": "days"
-          }
-        }, 
-        "minimum_interest_charge": {
-          "text": "If you are charged interest, the charge will be no less than $1.00.", 
-          "amount": 1.0
-        }, 
-        "cash_advance_apr": {
-          "text": "24.74%This APR will vary with the market based on the U.S. Prime Rate.", 
-          "amount": 24.74
-        }, 
-        "tips": {
-          "text": "To learn more about factors to consider when applying for or using a credit card, visit the website of the Consumer Financial Protection Bureau at http://\u200bwww\u200b.consumerfinance\u200b.gov\u200b/learnmore."
-        }, 
-        "purchase_apr": {
-          "text": "0.00% introductory APR for 6\u00a0months.After that your APR will be 11.90% to 21.90%, based on your creditworthiness. This APR will vary with the market based on the U.S. Prime Rate.", 
-          "introductory_apr": {
-            "term": {
-              "units": "months", 
-              "amount": 6
-            }, 
-            "low_amount": 0.0, 
-            "high_amount": 0.0
-          }, 
-          "normal_apr": {
-            "low_amount": 11.9, 
-            "high_amount": 21.9
-          }
+  }, 
+  {
+    "interest_rates_and_interest_charges": {
+      "balance_transfer_apr": {
+        "text": "16.74% to 23.74%, based on your creditworthiness. These APRs will vary with the market based on the Prime Rate.a", 
+        "low_amount": 16.74, 
+        "high_amount": 23.74
+      }, 
+      "due_date": {
+        "text": "Your due date will be a minimum of 21 days after the close of each billing cycle. We will not charge you interest on purchases if you pay your entire balance by the due date each month. We will begin charging interest on balance transfers and cash advances on the transaction date.", 
+        "earliest": {
+          "amount": 21, 
+          "unit": "days"
         }
+      }, 
+      "minimum_interest_charge": {
+        "text": "None"
+      }, 
+      "cash_advance_apr": {
+        "text": "25.74%. This APR will vary with the market based on the Prime Rate.b", 
+        "amount": 25.74
+      }, 
+      "prime_rate": {
+        "date_updated": {
+          "year": 2017, 
+          "day": 21, 
+          "month": 3
+        }, 
+        "text": "Prime Rate: Variable APRs are based on the 4.00% Prime Rate as of 3/21/2017.", 
+        "amount": 4.0
+      }, 
+      "tips": {
+        "text": "To learn more about factors to consider when applying for or using a credit card, visit the website of the Consumer Financial Protection Bureau at http://www.consumerfinance.gov/learnmore."
+      }, 
+      "purchase_apr": {
+        "text": "16.74% to 23.74%, based on your creditworthiness. These APRs will vary with the market based on the Prime Rate.a", 
+        "low_amount": 16.74, 
+        "high_amount": 23.74
       }
     }, 
-    {
-      "fees": {
-        "transaction_fees": {
-          "balance_transfers": {
-            "text": "Introductory fee of either $5 or 3% of the amount of each balance transfer, whichever is greater, for 6 months. After that, up to 5% for each balance transfer, with a minimum of $5.", 
-            "normal_fee": {
-              "dollar_amount": 5, 
-              "percentage": 5
-            }, 
-            "introductory_fee": {
-              "dollar_amount": 5, 
-              "percentage": 3, 
-              "term": {
-                "amount": 6, 
-                "unit": "months"
-              }
-            }
-          }, 
-          "cash_advances": {
-            "dollar_amount": 10, 
-            "text": "Either $10 or 5% of the amount of each advance, whichever is greater.", 
-            "percentage": 5
-          }, 
-          "overdraft": {
-            "upper_range": {
-              "dollar_amount": 20, 
-              "lower_advances": 50
-            }, 
-            "lower_range": {
-              "dollar_amount": 12.5, 
-              "upper_advances": 50
-            }, 
-            "text": "$12.50 if the total of overdraft protection advances for the day is $50 or less; $20 if the total of overdraft protection advances for the day is greater than $50."
-          }, 
-          "foreign": {
-            "text": "3% of each transaction converted to U.S. dollars.", 
-            "percentage": 3
-          }
+    "name": "Chase Freedom", 
+    "fees": {
+      "transaction_fees": {
+        "balance_transfers": {
+          "dollar_amount": 5, 
+          "text": "Either $5 or 5% of the amount of each transfer, whichever is greater.", 
+          "percentage": 5
         }, 
-        "penalty_fees": {
-          "late_payment": {
-            "maximum_fee": 37, 
-            "text": "Up to $37"
-          }, 
-          "return_payment": {
-            "maximum_fee": 37, 
-            "text": "Up to $37"
-          }
+        "cash_advances": {
+          "dollar_amount": 10, 
+          "text": "Either $10 or 5% of the amount of each transaction, whichever is greater.", 
+          "percentage": 5
         }, 
-        "annual_membership_fee": {
+        "foreign": {
           "text": "None"
         }
+      }, 
+      "penalty_fees": {
+        "return_check": {
+          "text": "None"
+        }, 
+        "late_payment": {
+          "high_range": {
+            "maximum_fee": 37, 
+            "lower_balance": 250
+          }, 
+          "text": "Up to $15 if the balance is less than $100; up to $27 if the balance is $100 to less than $250; up to $37 if the balance is $250 or more.", 
+          "low_range": {
+            "upper_balance": 100, 
+            "maximum_fee": 15
+          }, 
+          "middle_range": {
+            "upper_balance": 250, 
+            "maximum_fee": 27, 
+            "lower_balance": 100
+          }
+        }, 
+        "return_payment": {
+          "maximum_fee": 37, 
+          "text": "Up to $37."
+        }
+      }, 
+      "annual_membership_fee": {
+        "text": "$0 Intro fee for the first year. After that, $95", 
+        "intro_amount": 0, 
+        "normal_amount": 95
       }
     }
-  ], 
-  "amex_blue": [
-    {
-      "interest_rates_and_interest_charges": {
-        "balance_transfer_apr": {
-          "text": "15.99, 18.99 or  20.99% APR on balance transfers requested within 60 days of account opening based on your creditworthiness and other factors.This APR will vary with the market based on the Prime Rate.", 
-          "middle_amount": 18.99, 
-          "low_amount": 15.99, 
-          "high_amount": 20.99, 
-          "period": {
-            "amount": 60, 
-            "unit": "days"
-          }
-        }, 
-        "due_date": {
-          "text": "Your due date is at least 25 days after the close of each billing period. We will not charge you interest on purchases if you pay your entire balance by the due date each month. We will begin charging interest on cash advances and balance transfers on the transaction date.", 
-          "earliest": {
-            "amount": 25, 
-            "unit": "days"
-          }
-        }, 
-        "cash_advance_apr": {
-          "text": "25.99%This APR will vary with the market based on the Prime Rate.", 
-          "amount": 25.99
-        }, 
-        "penalty_apr": {
-          "mininum_term": {
-            "amount": 6, 
-            "unit": "months"
+  }, 
+  {
+    "interest_rates_and_interest_charges": {
+      "balance_transfer_apr": {
+        "text": "0.00% introductory APR for 6\u00a0months.After that, your APR will be 11.90% to 21.90%, based on your creditworthiness. This APR will vary with the market based on the U.S. Prime Rate.", 
+        "introductory_apr": {
+          "term": {
+            "units": "months", 
+            "amount": 6
           }, 
-          "text": "29.99% This APR will vary with the market based on the Prime Rate. This APR may be applied to new transactions on your account if: 1) you make one or more late payments; or2) your payment is returned by your bank How Long Will the Penalty APR Apply? If the Penalty APR is applied, it will apply for at least 6 months. We review your Account every 6 months after the Penalty APR is applied. The Penalty APR will continue to apply until after you have made timely payments, with no returned payments during the 6 months being reviewed.", 
-          "amount": 29.99, 
-          "review_period": {
-            "amount": 6, 
-            "unit": "months"
-          }
+          "low_amount": 0.0, 
+          "high_amount": 0.0
         }, 
-        "tips": {
-          "text": "To learn more about factors to consider when applying for or using a credit card, visit the website of the Consumer Financial Protection Bureau at http://www.consumerfinance.gov/learnmore"
+        "normal_apr": {
+          "low_amount": 11.9, 
+          "high_amount": 21.9
+        }
+      }, 
+      "due_date": {
+        "text": "Your due date is at least 25 days after the close of each billing period. We will not charge you interest on purchases if you pay your entire balance by the due date each month.", 
+        "earliest": {
+          "amount": 25, 
+          "unit": "days"
+        }
+      }, 
+      "minimum_interest_charge": {
+        "text": "If you are charged interest, the charge will be no less than $1.00.", 
+        "amount": 1.0
+      }, 
+      "cash_advance_apr": {
+        "text": "24.74%This APR will vary with the market based on the U.S. Prime Rate.", 
+        "amount": 24.74
+      }, 
+      "tips": {
+        "text": "To learn more about factors to consider when applying for or using a credit card, visit the website of the Consumer Financial Protection Bureau at http://\u200bwww\u200b.consumerfinance\u200b.gov\u200b/learnmore."
+      }, 
+      "purchase_apr": {
+        "text": "0.00% introductory APR for 6\u00a0months.After that your APR will be 11.90% to 21.90%, based on your creditworthiness. This APR will vary with the market based on the U.S. Prime Rate.", 
+        "introductory_apr": {
+          "term": {
+            "units": "months", 
+            "amount": 6
+          }, 
+          "low_amount": 0.0, 
+          "high_amount": 0.0
         }, 
-        "purchase_apr": {
-          "text": "15.99, 18.99 or 20.99%, based on your creditworthiness and other factors as determined at the time of account opening. This APR will vary with the market based on the Prime Rate.", 
-          "middle_amount": 18.99, 
-          "low_amount": 15.99, 
-          "high_amount": 20.99
+        "normal_apr": {
+          "low_amount": 11.9, 
+          "high_amount": 21.9
         }
       }
     }, 
-    {
-      "fees": {
-        "transaction_fees": {
-          "foreign_transaction": {
-            "text": "2.7% of each transaction after conversion to US dollars.", 
-            "percentage": 2.7
-          }, 
-          "cash_advance": {
+    "name": "Wells Fargo College Card", 
+    "fees": {
+      "transaction_fees": {
+        "balance_transfers": {
+          "text": "Introductory fee of either $5 or 3% of the amount of each balance transfer, whichever is greater, for 6 months. After that, up to 5% for each balance transfer, with a minimum of $5.", 
+          "normal_fee": {
             "dollar_amount": 5, 
-            "text": "Either $5 or 3% of the amount of each cash advance, whichever is greater.", 
-            "percentage": 3
+            "percentage": 5
           }, 
-          "balance_transfer": {
+          "introductory_fee": {
             "dollar_amount": 5, 
-            "text": "Either $5 or 3% of the amount of each transfer, whichever is greater.", 
-            "percentage": 3
+            "percentage": 3, 
+            "term": {
+              "amount": 6, 
+              "unit": "months"
+            }
           }
         }, 
-        "penalty_fees": {
-          "overlimit": {
-            "text": "None"
-          }, 
-          "late_payment": {
-            "text": "Up to $38", 
-            "maximum_amount": 38
-          }, 
-          "return_payment": {
-            "text": "Up to $38", 
-            "maximum_amount": 38
-          }
+        "cash_advances": {
+          "dollar_amount": 10, 
+          "text": "Either $10 or 5% of the amount of each advance, whichever is greater.", 
+          "percentage": 5
         }, 
-        "annual_membership_fee": {
-          "text": "$0", 
-          "amount": 0
+        "overdraft": {
+          "upper_range": {
+            "dollar_amount": 20, 
+            "lower_advances": 50
+          }, 
+          "lower_range": {
+            "dollar_amount": 12.5, 
+            "upper_advances": 50
+          }, 
+          "text": "$12.50 if the total of overdraft protection advances for the day is $50 or less; $20 if the total of overdraft protection advances for the day is greater than $50."
+        }, 
+        "foreign": {
+          "text": "3% of each transaction converted to U.S. dollars.", 
+          "percentage": 3
         }
+      }, 
+      "penalty_fees": {
+        "late_payment": {
+          "maximum_fee": 37, 
+          "text": "Up to $37"
+        }, 
+        "return_payment": {
+          "maximum_fee": 37, 
+          "text": "Up to $37"
+        }
+      }, 
+      "annual_membership_fee": {
+        "text": "None"
       }
     }
-  ]
-}
+  }
+]
